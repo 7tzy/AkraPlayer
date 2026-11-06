@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Akra Player for YouTube",
+  "version": "2.4",
+  "description": "Lets Akra Player play/pause YouTube (and other tabs) with its global keys, even while you're in a game.",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoKxYkvPqd4GT2WzTLfgazTMKTirogdz2YchuXAMug2X2iS0in63KArTt1uvNzOV93wkZGuU043hnVzR5PqZfUqcIgwqnqEa5Qrbp/0e6rw32o6j3/4JUH3b/mII+J4mahiZHKzrSkyNvliby8BzyrWPgqtbcFFl8kkXGBk+cY8UtEdaHUMPsF+8AAbAAuZnh+ms9GwbYUF6nzwx2S60h4NC5TX643O6BIXqLGSa5aU1k/6q8LQLJQRBTOQE2ltnz6FvhwzV2zJ67dOlJYDajIFMC1mbybcFoRet8fhbzy/9FsLlS8zX/9gKSzyXJ9flV0+t4ZgXXRG0vQS/qbHGZ1QIDAQAB",
+  "permissions": ["nativeMessaging", "tabs", "scripting", "storage", "alarms"],
+  "host_permissions": ["<all_urls>"],
+  "background": { "service_worker": "background.js" },
+  "icons": { "16": "icons/icon16.png", "48": "icons/icon48.png", "128": "icons/icon128.png" },
+  "action": {
+    "default_title": "Akra Player",
+    "default_popup": "popup.html",
+    "default_icon": { "16": "icons/icon16.png", "48": "icons/icon48.png" }
+  }
+}

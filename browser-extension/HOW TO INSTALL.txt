@@ -1,0 +1,125 @@
+╔══════════════════════════════════════════════════════════════════════╗
+║                                                                      ║
+║            AKRA PLAYER FOR YOUTUBE  ·  how to install it             ║
+║                                                                      ║
+║    Lets Akra Player's "Play / pause YouTube" key pause and resume    ║
+║    YouTube (and other video tabs) from anywhere, even in a game.     ║
+║                                                                      ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+ Works in:  Chrome · Brave · Edge · Opera · Vivaldi
+ Doesn't work in Firefox (it uses a different kind of extension).
+
+ Takes about a minute. You only do it once.
+
+
+══════════════════════════════════════════════════════════════════════
+ BEFORE YOU START
+══════════════════════════════════════════════════════════════════════
+
+ ▸ Keep this folder where it is.
+   Your browser loads the extension from this folder every time it
+   starts. If you move or delete the folder, the extension stops
+   working. (Moved it? Just do the steps again with the new place.)
+
+ ▸ Open Akra Player at least once.
+   It links itself to the browser when it starts.
+
+
+══════════════════════════════════════════════════════════════════════
+ STEP 1 · Open your browser's extensions page
+══════════════════════════════════════════════════════════════════════
+
+ Copy the address for your browser into the address bar, then press
+ Enter:
+
+     Chrome ........ chrome://extensions
+     Brave ......... brave://extensions
+     Edge .......... edge://extensions
+     Opera ......... opera://extensions
+     Vivaldi ....... vivaldi://extensions
+
+
+══════════════════════════════════════════════════════════════════════
+ STEP 2 · Turn on Developer mode
+══════════════════════════════════════════════════════════════════════
+
+ Find the "Developer mode" switch and turn it on:
+
+     Chrome, Brave, Vivaldi ... top right of the page
+     Edge ..................... left side, near the bottom
+     Opera .................... top right of the page
+
+ New buttons appear, including "Load unpacked".
+
+
+══════════════════════════════════════════════════════════════════════
+ STEP 3 · Load this folder
+══════════════════════════════════════════════════════════════════════
+
+ ① Click "Load unpacked".
+ ② Find this folder:  AkraPlayer YouTube Extension
+    (the one this file is in, e.g. Desktop › AkraPlayer ›
+    AkraPlayer YouTube Extension)
+ ③ Click it once, then click "Select Folder".
+    Don't go inside it. Select the folder itself.
+
+ "Akra Player for YouTube" now shows up in your extensions list.
+
+
+══════════════════════════════════════════════════════════════════════
+ STEP 4 · Pin it and check it's linked
+══════════════════════════════════════════════════════════════════════
+
+ ① Click the puzzle piece next to the address bar and pin
+    "Akra Player for YouTube" (optional, but handy).
+ ② Click its red icon. The popup should say:
+
+        Linked to Akra Player   ✓
+
+    If it says "Open Akra Player once to link it", start Akra Player
+    and check again.
+
+
+══════════════════════════════════════════════════════════════════════
+ STEP 5 · Set your key
+══════════════════════════════════════════════════════════════════════
+
+ In Akra Player:  Settings › Keybinds › "Play / pause YouTube"
+ Click "Change" and press the key you want. Done!
+
+ Press it anywhere: YouTube pauses. Press again: it plays.
+
+
+══════════════════════════════════════════════════════════════════════
+ SOMETHING NOT WORKING?
+══════════════════════════════════════════════════════════════════════
+
+ ▸ The popup says it's not linked
+   Make sure Akra Player is running, then close and reopen the browser.
+   (Akra Player links itself each time it starts.)
+
+ ▸ "Load unpacked" isn't there
+   Developer mode is still off (step 2).
+
+ ▸ Error: "Manifest file is missing or unreadable"
+   You picked the wrong folder. Pick "AkraPlayer YouTube Extension"
+   itself, the folder with manifest.json in it.
+
+ ▸ The browser warns about developer-mode extensions
+   That's normal for extensions you load yourself. It's safe to keep
+   it on; close the warning.
+
+ ▸ The key does nothing
+   • Check that the "Play / pause YouTube" switch on its card in
+     Keybinds is on.
+   • A YouTube video has to be open in a tab (it can be in the
+     background).
+
+ ▸ Updating Akra Player
+   New versions replace the files in this folder. Go to the
+   extensions page and click the ↻ reload arrow on "Akra Player for
+   YouTube" (or just restart the browser).
+
+ ▸ Have the old "YT Toggle" extension?
+   Remove it. This one replaces it.

@@ -1,0 +1,10 @@
+# built app (attach it to a GitHub Release instead)
+*.exe
+*.zip
+# your exported settings
+Exported Profiles/
+# editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

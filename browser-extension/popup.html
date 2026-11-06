@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="glass">
+    <header>
+      <img src="icons/icon48.png" alt="">
+      <div>
+        <h1>Akra Player</h1>
+        <p id="link" class="muted">Checking…</p>
+      </div>
+    </header>
+    <section id="now" class="card">
+      <p class="label">YouTube</p>
+      <p id="title" class="title">Nothing playing</p>
+      <div class="row">
+        <button id="toggle" disabled>Play / pause</button>
+        <button id="open" class="ghost" disabled>Go to tab</button>
+      </div>
+    </section>
+    <p class="hint">Set the key in Akra Player › Settings › Keybinds › “Play / pause YouTube”. It works everywhere, even in games.</p>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
